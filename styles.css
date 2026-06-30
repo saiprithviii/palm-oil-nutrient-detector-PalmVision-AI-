@@ -1,0 +1,50 @@
+/* Main Layout */
+.stApp {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                url("data:image/jpge;base64,PLACEHOLDER"); /* Handled in app.py */
+    background-size: cover;
+}
+
+/* Glassmorphism Card */
+.main-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+/* Sidebar Styling */
+[data-testid="stSidebar"] {
+    background-color: #0e1117 !important;
+    border-right: 1px solid #30363d;
+}
+
+/* Analysis Metrics */
+.metric-container {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0, 255, 127, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+    border-left: 5px solid #00ff7f;
+}
+
+/* Custom Button */
+.stButton>button {
+    width: 100%;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #2e7d32, #43a047);
+    color: white;
+    border: none;
+    height: 3em;
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -0.5px;
+}
